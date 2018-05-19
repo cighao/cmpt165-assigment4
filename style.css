@@ -1,0 +1,63 @@
+body{
+	margin:0;
+	padding:0
+}
+#top{
+	width: 800px;
+	height: 80px;
+	margin: 35px auto 0px auto;
+}
+#menu{
+	width: 800px;
+	min-height: 120px;
+	margin: 0 auto;
+}
+#main{
+	width: 800px;
+	height: 600px;
+	margin: 10px auto;
+	border-style:solid;
+}
+#top h1{
+	text-align: center;
+	font-size: 2.5em;
+}
+#menu p{
+	font-size: 1.25em;
+}
+.configuration{
+	border-style: dashed;
+	border-width: 2px;
+	padding: 10px;
+}
+#shape_selection img{
+	width:20px;
+}
+
+#start_button {
+    background-color: #4CAF50;
+	border: none;
+    color: white;
+    padding: 6px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+	border-radius: 6px;
+	margin-top: 15px;
+	margin-left: 600px;
+	cursor: pointer;
+	outline: none;
+}
+
+
+#difficulty_input{
+	width: 70px;
+	height: 30px;
+}
+
+#display_score{
+	font-size: 1.5em;
+	margin-top: 10px;
+}
+

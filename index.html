@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<script src="https://cmpt165.csil.sfu.ca/js/jquery-3.2.1.js"></script>
+		<script src="https://cmpt165.csil.sfu.ca/js/raphael-2.1.4.js"></script>
+		<script src="main.js"></script>
+		<link rel="stylesheet" href="style.css" />
+		<title> Click Game </title>
+	</head>
+	<body>
+		<div id="top">
+			<h1> Click Game </h1>
+		</div>
+	  
+		<div id="menu">
+			<div class="configuration">
+				<div>
+					<p> Difficulty(1-10):  
+						<input type="text" id="difficulty_input" />
+					</p>
+				</div>
+				<div id="shape_selection">
+					<p> Shape Selection </p>
+					<img src="img/circle.jpg" />
+					circle:<input type="checkbox" value="circle" />  &nbsp;&nbsp;
+					<img src="img/rectangle.jpg" />		
+					rectangle: <input type="checkbox" value="rectangle" /> &nbsp;&nbsp;
+					<img src="img/square.jpg" />
+					square: <input type="checkbox" value="square" /> &nbsp;&nbsp;
+					<img src="img/triangle.jpg" />
+					triangle: <input type="checkbox" value="triangle" /> &nbsp;&nbsp;
+					<img src="img/pentagram.jpg" />
+					pentagram: <input type="checkbox" value="pentagram" />
+				</div>
+				<div class="button">
+					<input type="button" id="start_button" value="start" />
+				</div>
+			</div>
+			<div>
+				<p id="display_score">
+					<em>Score:</em> <span id="score"> 0 </span>  &nbsp;&nbsp;
+					<em>Missed:</em> <span id="miss"> 0 </span>
+				</p>
+			</div>
+			
+		</div>
+	  
+		<div id="main">
+		
+		</div>
+
+	</body>
+</html>
